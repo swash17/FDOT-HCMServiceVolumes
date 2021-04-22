@@ -1,0 +1,420 @@
+body {
+  min-height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 4px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 4px;word-break:normal;}
+.tg .tg-se5s{background-color:#FFC000;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ep4i{background-color:#FFC000;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-p0pq{background-color:#F8CBAD;border-color:#fd6864;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-find{background-color:#E4FB5B;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-m5tn{background-color:#00B0F0;border-color:#38fff8;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-yshc{background-color:#73DEF3;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-047h{background-color:#DDEBF7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-6rj9{background-color:#00B0F0;border-color:#38fff8;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-zap8{background-color:#8EA9DB;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-tvlh{background-color:#ED7D31;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-nxth{background-color:#00B050;border-color:#34ff34;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-b33f{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-vot1{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-or7q{background-color:#FFD966;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-l2vj{background-color:#4472C4;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-kflu{background-color:#70AD47;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-gwie{background-color:#A9D08E;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-1b7n{background-color:#92D050;border-color:#67fd9a;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-5tng{background-color:#92D050;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-bnim{background-color:#DDEBF7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-r1t0{background-color:#DDEBF7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-8b21{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-l7xu{background-color:#92D050;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-xe17{background-color:#00B0F0;border-color:#38fff8;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-sx5d{background-color:#00B050;border-color:#34ff34;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-brgp{background-color:#FC3E4C;border-color:#cb0000;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-vkzw{background-color:#F8CBAD;border-color:#fd6864;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#3366FF;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-31lg{background-color:#D9E1F2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-pck6{background-color:#D9E1F2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ru10{border-color:#ffffff;font-family:"Times New Roman", Times, serif !important;;font-size:20px;text-align:right;
+  vertical-align:top}
+.tg .tg-qpwb{background-color:#D9E1F2;border-color:#d9e1f2;text-align:center;vertical-align:bottom}
+.tg .tg-k2eq{background-color:#FFF;border-color:#ffffff;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  text-align:right;vertical-align:middle}
+.tg .tg-7v55{background-color:#d9e1f2;border-color:#d9e1f2;text-align:left;vertical-align:top}
+.tg .tg-5b55{background-color:#9b9b9b;border-color:#9b9b9b;text-align:left;vertical-align:top}
+.tg .tg-n6e5{background-color:#FFF;border-color:#ffffff;text-align:center;vertical-align:bottom}
+.tg .tg-7ln1{background-color:#D9E1F2;border-color:#d9e1f2;text-align:left;vertical-align:bottom}
+.tg .tg-mg87{background-color:#FFF;border-color:#ffffff;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ea6x{background-color:#FFF;border-color:#ffffff;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-klc8{background-color:#FFF2CC;border-color:#fff2cc;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-o4f1{background-color:#D9E1F2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-n6z9{background-color:#D9E1F2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:bottom}
+.tg .tg-mm6k{background-color:#D9E1F2;border-color:#d9e1f2;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ikt2{background-color:#d9e1f2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-15gx{background-color:#fff2cc;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-amub{background-color:#D9E1F2;border-color:#d9e1f2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:top}
+.tg .tg-1r98{background-color:#FFF;border-color:#ffffff;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+  a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#3366FF;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wfqj{background-color:#2F75B5;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-shbt{background-color:#C9C9C9;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-4igb{background-color:#C9C9C9;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-d3o4{background-color:#EDEDED;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-ksgs{background-color:#0070C0;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-lf5h{background-color:#C9C9C9;border-color:inherit;color:#0563C1;font-family:"Times New Roman", Times, serif !important;;
+  font-size:12px;text-align:center;text-decoration:underline;vertical-align:top}
+.tg .tg-xpdq{background-color:#EDEDED;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-f3y3{background-color:#C65911;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ug2j{background-color:#5B9BD5;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-1z4g{background-color:#92D050;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-03vl{background-color:#7B7B7B;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-wxeq{background-color:#FFC000;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-73fn{background-color:#FFD966;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-pxjg{background-color:#833C0C;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-182z{background-color:#FFC000;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-c74e{background-color:#C6E0B4;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-iyur{background-color:#BDD7EE;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-roy7{background-color:#FFE699;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-xg8c{background-color:#92D050;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-h5cg{background-color:#EDEDED;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-cuiq{background-color:#92D050;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-vfzc{background-color:#00B0F0;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-tg6c{background-color:#00B0F0;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-s4dt{background-color:#C9C9C9;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+a.GeneratedLink:link {
+font-size:20px;text-decoration:underline;color:#0000FF;background-color:;
+}
+a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#660066;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-ep4i{background-color:#FFC000;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-wrsd{background-color:#FC3E4C;border-color:#fe0000;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-find{background-color:#E4FB5B;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-yshc{background-color:#73DEF3;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-k9ek{background-color:#00B0F0;border-color:#3166ff;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-r2uv{background-color:#9BC2E6;border-color:#9b9b9b;text-align:center;vertical-align:middle}
+.tg .tg-japm{background-color:#B4C6E7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-dqm2{background-color:#92D050;border-color:#32cb00;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-7kmr{background-color:#ED7D31;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-b33f{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-ycbo{background-color:#92D050;border-color:#32cb00;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-vot1{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-485f{background-color:#00B050;border-color:#34ff34;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-aeqx{background-color:#8497B0;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-l2vj{background-color:#4472C4;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-kflu{background-color:#70AD47;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-vqkj{background-color:#F8CBAD;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-phjz{background-color:#C6E0B4;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-rpqk{background-color:#92D050;border-color:#32cb00;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-r1t0{background-color:#DDEBF7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-8b21{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-k76m{background-color:#00B0F0;border-color:#3166ff;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-vnr6{background-color:#DDEBF7;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+text-align:center;vertical-align:middle}
+a.GeneratedLink:link {
+font-size:20px;text-decoration:underline;color:#0000FF;background-color:;
+}
+a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#3366FF;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-020n{background-color:#BFBFBF;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-nwdz{background-color:#FC3728;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-tclb{background-color:#F2F2F2;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-ci22{background-color:#FFF2CC;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-47lm{background-color:#D9E1F2;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-aks9{background-color:#F2F2F2;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:bottom}
+.tg .tg-pz2n{background-color:#F2F2F2;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-hhtt{background-color:#BFBFBF;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:bottom}
+.tg .tg-ww47{background-color:#BFBFBF;border-color:#333333;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+  
+  .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-gkdr{background-color:#BFBFBF;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-9uyf{background-color:#F2F2F2;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-t38v{background-color:#FC3728;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-yo1r{background-color:#F2F2F2;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:bottom}
+.tg .tg-fwfr{background-color:#DDEBF7;border-color:inherit;font-size:22px;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-k61r{background-color:#FFF2CC;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:13px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ks7r{background-color:#F2F2F2;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-cayx{background-color:#BFBFBF;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:bottom}
+.tg .tg-rp9b{background-color:#BFBFBF;border-color:inherit;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+  
+  .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-dh00{background-color:#BFBFBF;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:left;
+  vertical-align:bottom}
+.tg .tg-8gih{background-color:#D9E1F2;font-family:"Times New Roman", Times, serif !important;;font-size:22px;font-weight:bold;
+  text-align:center;vertical-align:middle}
+.tg .tg-jmx4{background-color:#BFBFBF;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:center;
+  vertical-align:middle}
+.tg .tg-y2pm{background-color:#BFBFBF;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:left;
+  vertical-align:middle}
+.tg .tg-42l4{background-color:#FC3728;font-family:"Times New Roman", Times, serif !important;;font-size:14px;font-weight:bold;
+  text-align:left;vertical-align:bottom}
+.tg .tg-htpm{background-color:#FFF2CC;font-family:"Times New Roman", Times, serif !important;;font-size:13px;font-weight:bold;
+  text-align:center;vertical-align:middle}
+.tg .tg-3u9s{background-color:#F2F2F2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:center;
+  vertical-align:middle}
+.tg .tg-xrp4{background-color:#F2F2F2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:left;
+  vertical-align:bottom}
+.tg .tg-d5zi{background-color:#F2F2F2;font-family:"Times New Roman", Times, serif !important;;font-size:12px;text-align:left;
+  vertical-align:middle}
+  
+  .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-qpah{background-color:#ED7D31;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-hu1i{background-color:#FC3E4C;border-color:#fd6864;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-4fpo{background-color:#00B050;border-color:#009901;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-0z74{background-color:#FFD966;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-7lmb{background-color:#D9E1F2;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-uou9{background-color:#00B0F0;border-color:#cbcefb;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-kw0a{background-color:#5B9BD5;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-u7kf{background-color:#D9E1F2;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-gg2a{background-color:#70AD47;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-s7bx{background-color:#D9E1F2;border-color:#c0c0c0;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-9ckv{background-color:#A0B13D;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-4dto{background-color:#73DEF3;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:22px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-nnnn{background-color:#E4FB5B;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:18px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-oh6i{background-color:#FFC000;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:16px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-as58{background-color:#FFC000;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-1sv8{background-color:#9BC2E6;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-4oj0{background-color:#A9D08E;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-38iq{background-color:#92D050;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-5tng{background-color:#92D050;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-rvb9{background-color:#8EA9DB;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:middle}
+.tg .tg-m3v7{background-color:#8EA9DB;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:left;vertical-align:middle}
+.tg .tg-l7xu{background-color:#92D050;border-color:#9aff99;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-no91{background-color:#00B0F0;border-color:#cbcefb;font-family:"Times New Roman", Times, serif !important;;font-size:14px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-ch0v{background-color:#8EA9DB;border-color:#9b9b9b;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  text-align:center;vertical-align:bottom}
+.tg .tg-cm1g{background-color:#0070C0;border-color:#340096;font-family:"Times New Roman", Times, serif !important;;font-size:12px;
+  font-weight:bold;text-align:center;vertical-align:middle}
+a.GeneratedLink:link {
+font-size:20px;text-decoration:underline;color:#0000FF;background-color:;
+}
+a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#3366FF;
+}
+
+a.GeneratedLink:link {
+font-size:20px;text-decoration:underline;color:#0000FF;background-color:;
+}
+a.GeneratedLink:visited {
+color:#000066;
+}
+a.GeneratedLink:hover {
+color:#0000CC;
+}
+a.GeneratedLink:active {
+color:#3366FF;
+}
+
+  a:link,a:visited {
+   color: Blue;
+   background-color: ;
+   text-decoration: underline;
+   target-new: none;
+  }
+  a:hover {
+   color: Purple;
+   background-color: ;
+   text-decoration: underline;
+   target-new: none;
+  }
+  
+
+  
+  
